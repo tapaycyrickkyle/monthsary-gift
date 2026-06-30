@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 170">
+  <defs>
+    <linearGradient id="stem" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#7fbd45"/>
+      <stop offset="1" stop-color="#2d7d31"/>
+    </linearGradient>
+    <linearGradient id="petal" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff6fb"/>
+      <stop offset="1" stop-color="#ffc6db"/>
+    </linearGradient>
+  </defs>
+  <path d="M45 162 C42 130 48 102 45 72" fill="none" stroke="url(#stem)" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M43 130 C29 110 16 96 12 75 C33 83 44 105 45 132 Z" fill="#58a63b"/>
+  <path d="M48 135 C62 112 74 99 78 78 C58 85 47 108 46 137 Z" fill="#3e8f34"/>
+  <g transform="translate(45 52)">
+    <ellipse rx="9" ry="24" fill="url(#petal)" transform="rotate(0) translate(0 -18)"/>
+    <ellipse rx="9" ry="24" fill="url(#petal)" transform="rotate(45) translate(0 -18)"/>
+    <ellipse rx="9" ry="24" fill="url(#petal)" transform="rotate(90) translate(0 -18)"/>
+    <ellipse rx="9" ry="24" fill="url(#petal)" transform="rotate(135) translate(0 -18)"/>
+    <ellipse rx="9" ry="24" fill="url(#petal)" transform="rotate(180) translate(0 -18)"/>
+    <ellipse rx="9" ry="24" fill="url(#petal)" transform="rotate(225) translate(0 -18)"/>
+    <ellipse rx="9" ry="24" fill="url(#petal)" transform="rotate(270) translate(0 -18)"/>
+    <ellipse rx="9" ry="24" fill="url(#petal)" transform="rotate(315) translate(0 -18)"/>
+    <circle r="12" fill="#f4c95d"/>
+    <circle r="5" fill="#d79b32" opacity="0.55"/>
+  </g>
+</svg>

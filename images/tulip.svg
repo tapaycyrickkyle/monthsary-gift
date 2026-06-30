@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 260">
+  <defs>
+    <linearGradient id="stemGradient" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#75bd46"/>
+      <stop offset="1" stop-color="#277b2f"/>
+    </linearGradient>
+    <linearGradient id="leafGradient" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#86ca4f"/>
+      <stop offset="0.55" stop-color="#4a9d35"/>
+      <stop offset="1" stop-color="#23712b"/>
+    </linearGradient>
+    <linearGradient id="petalGradient" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ff8abb"/>
+      <stop offset="0.48" stop-color="#ff4c98"/>
+      <stop offset="1" stop-color="#c6005b"/>
+    </linearGradient>
+    <linearGradient id="petalDark" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#e30068"/>
+      <stop offset="1" stop-color="#9f0045"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M61 245 C55 204 62 168 60 119" fill="none" stroke="url(#stemGradient)" stroke-width="6" stroke-linecap="round"/>
+
+  <path d="M58 202 C36 166 17 141 13 104 C42 116 59 151 61 205 Z" fill="url(#leafGradient)"/>
+  <path d="M57 195 C39 164 25 139 18 113" fill="none" stroke="#b9e28b" stroke-width="2.2" stroke-linecap="round" opacity="0.65"/>
+
+  <path d="M63 211 C86 169 101 140 108 101 C76 113 61 154 60 214 Z" fill="url(#leafGradient)"/>
+  <path d="M65 201 C84 165 97 134 103 111" fill="none" stroke="#a8dc76" stroke-width="2.2" stroke-linecap="round" opacity="0.62"/>
+
+  <g>
+    <path d="M61 120 C36 117 27 88 31 58 C34 32 46 20 61 35 C76 20 88 32 91 58 C95 88 86 117 61 120 Z" fill="url(#petalGradient)"/>
+    <path d="M35 61 C38 36 49 25 61 35 C50 39 42 50 37 70 C36 67 35 64 35 61 Z" fill="#f81778"/>
+    <path d="M87 61 C84 36 73 25 61 35 C73 39 81 50 85 70 C86 67 87 64 87 61 Z" fill="#cf005e"/>
+    <path d="M61 121 C48 108 44 78 48 48 C51 24 58 13 61 13 C65 13 72 24 75 48 C79 78 74 108 61 121 Z" fill="#ff5aa0"/>
+    <path d="M47 49 C51 28 58 14 61 14 C61 42 60 82 61 121 C50 105 45 78 47 49 Z" fill="#ff86b8" opacity="0.72"/>
+    <path d="M33 57 C37 29 49 18 61 35 C54 30 44 34 33 57 Z" fill="url(#petalDark)"/>
+    <path d="M61 35 C73 18 85 29 89 57 C78 34 68 30 61 35 Z" fill="#b90053"/>
+    <path d="M44 42 C50 23 57 12 61 12 C66 12 73 23 78 42 C72 34 66 32 61 35 C56 32 50 34 44 42 Z" fill="#d90062"/>
+    <ellipse cx="54" cy="58" rx="9" ry="24" fill="#ffa6c8" opacity="0.5" transform="rotate(10 54 58)"/>
+  </g>
+</svg>
