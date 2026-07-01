@@ -1955,14 +1955,7 @@ body.envelope-opened .floating-flower-dock.is-visible {
   }
 
   .photo-booth::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    width: 2px;
-    background: linear-gradient(transparent, rgba(255, 225, 231, 0.22), transparent);
-    transform: translateX(-50%);
+    content: none;
   }
 
   .booth-photo,
