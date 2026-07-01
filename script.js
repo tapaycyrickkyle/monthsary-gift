@@ -81,6 +81,7 @@ function pauseForCharacter(character, baseDelay) {
 function writeByHand(element, text, baseDelay) {
   return new Promise((resolve) => {
     let index = 0;
+    let currentWord = null;
     element.textContent = "";
     element.classList.add("handwriting-active");
 
@@ -94,12 +95,19 @@ function writeByHand(element, text, baseDelay) {
       const character = text[index];
 
       if (character === " ") {
+        currentWord = null;
         element.append(document.createTextNode(" "));
       } else {
+        if (!currentWord) {
+          currentWord = document.createElement("span");
+          currentWord.className = "ink-word";
+          element.append(currentWord);
+        }
+
         const letter = document.createElement("span");
         letter.className = "ink-letter";
         letter.textContent = character;
-        element.append(letter);
+        currentWord.append(letter);
       }
 
       index += 1;
